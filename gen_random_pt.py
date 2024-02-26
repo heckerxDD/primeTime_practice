@@ -16,9 +16,9 @@ pre_logic_lvl = np.random.randint(15, 30, size=1000, dtype=np.int32)
 cur_logic_lvl = np.random.randint(15, 30, size=1000, dtype=np.int32)
 post_logic_lvl = np.random.randint(15, 30, size=1000, dtype=np.int32)  # demonstrates typical logic levels
 
-pre_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * -0.001
-cur_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * -0.001
-post_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * -0.001
+pre_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * 0.001
+cur_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * 0.001
+post_data_delay = np.random.randint(250, 450, size=1000, dtype=np.int32) * 0.001
 # demonstrates typical data path delays
 
 clock_skew = np.random.randint(20, 80, size=1000, dtype=np.int32) * 0.001
