@@ -3,7 +3,6 @@ import numpy as np
 import random as rd
 import string
 
-
 path_count = np.arange(0, 1000, dtype=np.int32)  # example contains 1000 timing paths with random attributes
 pre_slack = np.random.randint(0, 30, size=1000, dtype=np.int32) * -0.001
 # demonstrates previous cycle path timing violations
